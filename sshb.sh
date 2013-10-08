@@ -107,7 +107,6 @@ else
 	if [ `expr $RED + $GREEN + $BLUE` -gt 300 ]; then
 		RED=`expr $RED / 10`
 		GREEN=`expr $GREEN / 10`
-echo hello
 	fi
 	set_bg $RED $GREEN $BLUE "/tmp/iTermBG.$$.png"
 fi
